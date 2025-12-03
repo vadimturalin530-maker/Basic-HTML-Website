@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 100px ;
+    padding-right: 100px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+a:hover {
+    color:black
+}
+
+a:active {
+    color:black
+}
+
+a:link {
+    color:black
+}
+
+a:visited {
+    color:black
+}
+
+.logo img {
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+main {
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+aside {
+    text-align: center;
+    padding-top: 50px;
+}
